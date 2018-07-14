@@ -5,13 +5,25 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Olaa Seja bem vindo ao cine aston!</h2>
-  <p>
-    Somos a melhor empresa de cinema de paranavai.
-  </p>
+  <h2>Faça o cadastro para receber novidades</h2>
+  <ion-list>
 
-  <a (click)="goToPage()">clique aqui</a>
-  <p>
-    Nossa historia comecou bem antes da televisao brasileira.
-  </p>
+  <ion-item>
+    <ion-label fixed>Nome</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>E-mail</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>senha</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+  <button ion-button block (click)="goToFeeds()">Proximo</button>
+
+</ion-list>
 </ion-content>

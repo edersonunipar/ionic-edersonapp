@@ -13,6 +13,7 @@ import { MoovieProvider } from '../providers/moovie/moovie';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
